@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
 
-        features = "src/test/resources/awesomecucumber/guest_place_an_order.feature",
+        features = "src/test/resources/awesomecucumber/",
         plugin = {"pretty","html:target/cucumber.html"},
         glue = {"awesomecucumber"}
 )
